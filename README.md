@@ -26,4 +26,12 @@ Pizza-hut is an application on which pizza hut's clients can get to order their 
  - checkout
 
 
+## TECHNOLOGIES USED
+
+Technologies | Purpose
+------|---------
+HTML |  Contents
+Bootstrap|  Styling
+Jquery |  Functionality
+Googlefonts| fonts
 
