@@ -1,12 +1,10 @@
-/* body{
-     background-image: linear-gradient(to right top, #d73a26, #e23567, #d3509f, #ae6fc9, #7b89dd, #4b9ee8, #07afe7, #00bedc, #00d2cb, #33e0a0, #97e868, #efe531);
-     background-repeat: no-repeat;
-} */
-
 body{
-    background-image: url('https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/phut_0.jpg?itok=h30EAnkk');
-    background-repeat: no-repeat;
-    background-size: cover;
+    color:#ED584F
+}
+
+.container{
+    margin:0px;
+    width:70vw;
 }
 
 form{
@@ -30,6 +28,19 @@ form{
 }
 
 img{
-   margin:0 
+   margin:0 ;
+   height:300px;
+   width:300px;
 }
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.grid3 img{
+    border-radius: 3px;
+}
+
+
 
