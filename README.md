@@ -35,3 +35,13 @@ Bootstrap|  Styling
 Jquery |  Functionality
 Googlefonts| fonts
 
+
+#### FOLLOW ME ON 
+------|
+ _Twitter_  **https://twitter.com/Muthonim7**
+_Github_   **https://github.com/mishel254**
+
+
+#### COPYRIGHT
+
+LICENCED UNDER **MIT** copyright (C) 2020
