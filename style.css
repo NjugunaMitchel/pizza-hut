@@ -1,0 +1,35 @@
+/* body{
+     background-image: linear-gradient(to right top, #d73a26, #e23567, #d3509f, #ae6fc9, #7b89dd, #4b9ee8, #07afe7, #00bedc, #00d2cb, #33e0a0, #97e868, #efe531);
+     background-repeat: no-repeat;
+} */
+
+body{
+    background-image: url('https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/phut_0.jpg?itok=h30EAnkk');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    display: none;
+    background-color:white;
+    margin:auto;
+    padding:10px;
+    margin:10px
+
+}
+.jumbotron{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+    opacity:0.9;
+}
+
+.quote{
+    width:500px;
+}
+
+img{
+   margin:0 
+}
+
