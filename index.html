@@ -12,37 +12,70 @@
         <header>
             <div class="logo"> <h1>PIZZA HUT </h1></div>
         </header>
+        <div class="jumbotron bg-dark" >
+            <div class="quote">
+                <h1>Do good, be nice ,order pizza ,repeat</h1>
+            </div>
+            <img src="https://i.pinimg.com/564x/18/21/03/1821037f32099913de86be3298894d92.jpg">
+        </div>
 
         <form>
             <h3>Place an order</h3>
-            <label>Pizza size</label>
-               <input type="radio" name="size" value=" xx-large">Extra large
-               <input type="radio" name="size" value=" large">Large
-               <input type="radio" name="size" value=" medium">Medium
-               <input type="radio" name="size" value=" small">Small <br>
-            <label>Crust</label>
-              <input type = "radio"  name="crust" value="crispy">Crispy
-              <input type = "radio"  name="crust" value="stuffed">Staffed
-              <input type = "radio"  name="crust" value="gluten-free">Gluten free <br>
+            <label>Pizza size:</label>
+               <input type="radio" name="size"  class="pizzaSize" value=" xx-large">Extra large -
+               <input type="radio" name="size"  class="pizzaSize" value=" large">Large
+               <input type="radio" name="size"  class="pizzaSize" value=" medium">Medium
+               <input type="radio" name="size"  class="pizzaSize" value=" small">Small <br>
+            <label>Crust:</label>
+              <input type = "radio"  name="crust"  class="pizzaCrust" value="crispy">Crispy
+              <input type = "radio"  name="crust"  class="pizzarCrust" value="stuffed">Staffed
+              <input type = "radio"  name="crust"  class="pizzaCrust" value="gluten-free">Gluten free <br>
 
-            <label>Toppings</label>
-              <input type="checkbox"  name="toppings" value="sausage">Sausage
-              <input type="checkbox"  name="toppings" value="extra-cheese">Extra cheese
-              <input type="checkbox"  name="toppings" value="mushrooms">mushrooms
-              <input type="checkbox"  name="toppings" value="onions">Onions
-              <input type="checkbox"  name="toppings" value="green-pepper">Green pepper <br>
+            <label>Toppings:</label>
+              <input type="checkbox"  name="toppings"  class="pizzaToppings" value="sausage">Sausage
+              <input type="checkbox"  name="toppings"  class="pizzaToppings" value="extra-cheese">Extra cheese
+              <input type="checkbox"  name="toppings"  class="pizzaToppings" value="mushrooms">mushrooms
+              <input type="checkbox"  name="toppings" class="pizzaToppings"  value="onions">Onions
+              <input type="checkbox"  name="toppings"  class="pizzaToppings" value="green-pepper">Green pepper <br>
 
             <label>Number of pizza's</label>
               <input type="number"><br>
 
-            <input type="checkbox"  value="delivery">have it delivered  <br>
+            <input type="checkbox"  id="delivery">have it delivered  <br>
 
 
             <button id="submit"> order</button>
 
              
         </form>
+
+        <div class="specials">
+            <div class="grid3">
+                <div>
+                    <img src="http://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_1200/v1522252020/photos/271932_original.jpg">
+                    <div class="description">
+                        <h4>Our decker burgers</h4>
+                        <p>20min - 30min </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://www.rockrecipes.com/wp-content/uploads/2018/02/Steak-Frites-close-up-photo-of-single-serving-on-white-plate.jpg">
+                    <div class="description">
+                        <h4>fine steak & large chips</h4>
+                        <p>25min - 35min </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://assets.change.org/photos/1/wj/xf/UjWJXFywgpVpqJD-800x450-noPad.jpg?1546195388">
+                    <div class="description">
+                        <h4>Boneless & sauce</h4>
+                        <p>10min - 20min </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>">
     <script src="app.js"></script>
 </body>
 </html>
