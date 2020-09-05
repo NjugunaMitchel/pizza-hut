@@ -1,3 +1,7 @@
+$('#order').click( (e)=>{
+    $('#form').css({'display': 'block'})
+})
+
 function allcategorieschecked(){
     if($('.pizzaSize').prop('checked') == false){
         alert('fill all spaces')
