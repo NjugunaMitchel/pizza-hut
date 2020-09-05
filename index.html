@@ -15,11 +15,12 @@
         </header>
         <div class="jumbotron bg-dark" >
             <div class="quote">
-                <h1>Do good, be nice ,order pizza ,repeat</h1>
+                <h1>Slices you love, delivered to you</h1>
+                <h3>Do good, be nice, order pizza ,repeat</h3>
             </div>
-            <img src="https://i.pinimg.com/564x/18/21/03/1821037f32099913de86be3298894d92.jpg">
+            <img src="https://i.pinimg.com/564x/18/21/03/1821037f32099913de86be3298894d92.jpg" id="pizzaguy">
         </div>
-
+       <h1>Other specials</h1>
         <div class="specials">
             <div class="grid3">
                 <div>
@@ -27,6 +28,7 @@
                     <div class="description">
                         <h4>Our decker burgers</h4>
                         <p>20min - 30min </p>
+                        <p>ksh  900</p>
                     </div>
                 </div>
                 <div>
@@ -34,6 +36,7 @@
                     <div class="description">
                         <h4>fine steak & large chips</h4>
                         <p>25min - 35min </p>
+                        <p> ksh 1500</p>
                     </div>
                 </div>
                 <div>
@@ -41,32 +44,33 @@
                     <div class="description">
                         <h4>Boneless & sauce</h4>
                         <p>10min - 20min </p>
+                        <p>ksh 600</p>
                     </div>
                 </div>
             </div>
         </div>
       </section>
-        <section>
-            <form>
+        <section id="form">
+            <form class="mt-3">
                 <h3>Place an order</h3>
-                <label>Pizza size:</label>
-                   <input type="radio" name="size"  class="pizzaSize" value=" xx-large">Extra large -
+                <label>Pizza size:</label><br>
+                   <input type="radio" name="size"  class="pizzaSize" value=" xx-large">Extra large 
                    <input type="radio" name="size"  class="pizzaSize" value=" large">Large
                    <input type="radio" name="size"  class="pizzaSize" value=" medium">Medium
                    <input type="radio" name="size"  class="pizzaSize" value=" small">Small <br>
-                <label>Crust:</label>
+                <label>Crust:</label><br>
                   <input type = "radio"  name="crust"  class="pizzaCrust" value="crispy">Crispy
                   <input type = "radio"  name="crust"  class="pizzarCrust" value="stuffed">Staffed
                   <input type = "radio"  name="crust"  class="pizzaCrust" value="gluten-free">Gluten free <br>
     
-                <label>Toppings:</label>
+                <label>Toppings:</label><br>
                   <input type="checkbox"  name="toppings"  class="pizzaToppings" value="sausage">Sausage
                   <input type="checkbox"  name="toppings"  class="pizzaToppings" value="extra-cheese">Extra cheese
                   <input type="checkbox"  name="toppings"  class="pizzaToppings" value="mushrooms">mushrooms
                   <input type="checkbox"  name="toppings" class="pizzaToppings"  value="onions">Onions
                   <input type="checkbox"  name="toppings"  class="pizzaToppings" value="green-pepper">Green pepper <br>
     
-                <label>Number of pizza's</label>
+                <label>Number of pizza's:</label>
                   <input type="number"><br>
     
                 <input type="checkbox"  id="delivery">have it delivered  <br>
