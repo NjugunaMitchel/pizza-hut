@@ -1,19 +1,28 @@
 body{
-    color:#ED584F
+    color:#ED584F;
 }
 
 .container{
+    display: flex;
+    flex-direction: row;
     margin:0px;
     width:70vw;
 }
 
 form{
-    display: none;
-    background-color:white;
-    margin:auto;
+    display:block;
+    background-color:rgba(8, 8, 8, 0.185);
     padding:10px;
-    margin:10px
+    margin:20px;
+    margin-top:0px;
+    color:black;
+    width:25vw;
+    
+}
 
+#form{
+    background-image: url('https://image.shutterstock.com/image-photo/slice-delicious-italian-pizza-isolated-600w-194626103.jpg');
+    background-repeat: no-repeat ;
 }
 .jumbotron{
     display:flex;
@@ -24,13 +33,20 @@ form{
 }
 
 .quote{
-    width:500px;
+    width:400px;
+    color: black;
 }
 
 img{
-   margin:0 ;
+   margin:5px ;
    height:300px;
    width:300px;
+}
+
+#pizzaguy{
+    position: absolute;
+    top:10%;
+    right:34%;
 }
 
 .grid3{
@@ -42,5 +58,16 @@ img{
     border-radius: 3px;
 }
 
+label{
+    font-size: large;
+}
+
+.description{
+    border-radius: 6px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin-top: 0;
+    margin:0  7px;
+}
 
 
