@@ -20,8 +20,10 @@
                 <h1>Slices you love, delivered to you</h1>
                 <h3>Do good, be nice, order pizza ,repeat</h3>
             </div>
+            
             <img src="https://thumbs.dreamstime.com/z/pizza-chef-11347651.jpg" id="pizzaguy">
         </div>
+        <div class="myOrder"> </div>
        <h1>Other specials</h1>
         <div class="specials">
             <div class="grid3">
@@ -56,10 +58,10 @@
             <form>
                 <h3>Place an order</h3>
                 <label>Pizza size:</label><br>
-                   <input type="radio" name="size" required class="pizzaSize" id=" xx-large">Extra large 
-                   <input type="radio" name="size" required class="pizzaSize" id=" large">Large
-                   <input type="radio" name="size" required class="pizzaSize" id=" medium">Medium
-                   <input type="radio" name="size" required class="pizzaSize" id=" small">Small <br>
+                   <input type="radio" name="size" required class="pizzaSize" id="xx-large">Extra large 
+                   <input type="radio" name="size" required class="pizzaSize" id="large">Large
+                   <input type="radio" name="size" required class="pizzaSize" id="medium">Medium
+                   <input type="radio" name="size" required class="pizzaSize" id="small">Small <br>
                 <label>Crust:</label><br>
                   <input type = "radio"  name="crust" required class="pizzaCrust" id="crispy">Crispy
                   <input type = "radio"  name="crust" required class="pizzarCrust" id="stuffed">Staffed
@@ -73,19 +75,20 @@
                   <input type="checkbox"  name="toppings"  class="pizzaToppings" id="green-pepper">Green pepper <br>
     
                 <label>Number of pizza's:</label>
-                  <input type="number" required  id="pizzaNumber"><br>
+                <input  id="pizzaNumber" required>  <br>
     
                 <input type="checkbox"  id="delivery">have it delivered  <br>
     
     
                 <button id="submit"> order</button>
+                <button id="cancel"> cancel</button>
     
                  
             </form>
         </section>
     </div>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 </html>
