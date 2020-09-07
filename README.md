@@ -32,7 +32,7 @@ Technologies | Purpose
 ------|---------
 HTML |  Contents
 Bootstrap|  Styling
-Jquery |  Functionality
+Javascript |  Functionality
 Googlefonts| fonts
 
 
