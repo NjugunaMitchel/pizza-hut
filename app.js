@@ -20,7 +20,13 @@ var toppingsPrices = {
     greenPepper : 150,
     sausage : 500
 }
-var adress;
+
+var crust = {
+    crispy : 200,
+    stuffed : 400,
+    glutenFree : 500
+}
+var address;
  var pizzaPrice;
 
 function pricing(){
@@ -132,7 +138,5 @@ $('#submit').click( (e) =>{
     e.preventDefault();
     pricing();
     $('.myOrder').append(`Your order is   medium pizza with green pepper toppings  for Ksh ${pizzaPrice} at ${address}`)
-
-    console.log($('#pizzaNumber').val())
 })
 
