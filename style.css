@@ -123,4 +123,8 @@ span{
     margin:10px;
 }
 
+::alert{
+     border-color: blue;
+ }
+
  
